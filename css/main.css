@@ -22,3 +22,32 @@ input{
   color: black;
   background: white;
 }
+
+a i{
+  color: gray;
+  margin-left: 90%;
+  margin-top: -63px;
+  position: absolute;
+}
+
+h4,
+p{
+  margin-left: 10px;
+}
+
+.dire-address,
+.dire-district{
+  color: #CBCBC9;
+}
+
+.box-products div {
+  padding: 5px;
+  background-color: #EDEAEA;
+  border-radius: 0px;
+  display: inline;
+  margin: 3px;
+}
+
+.box-products{
+  margin-left: 10px;
+}
