@@ -3,7 +3,19 @@
 const render = (root) => {
   root.empty();
   const wrapper = $('<div class="wrapper"></div>');
+
   wrapper.append(Header(_ => render(root)));
+//  wrapper.append(DireGrid(_ => render(root)));
+  if(state.selectedStation == null){
+    wrapper.append(DireGrid( _ =>{
+      render(root);
+    }));
+  }else{
+    wrapper.append(StationDetails( _ =>{
+      render(root);
+    }));
+  }
+
   root.append(wrapper);
 }
 
