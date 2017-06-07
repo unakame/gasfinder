@@ -4,7 +4,7 @@ const direItem = (dire, update) => {
   const item = $('<div class="dire"></div>');
   const name = $('<h6 class="dire-name"><strong>'+dire.name+'</strong></h6>');
   const address = $('<p class="dire-address">'+dire.address+'</p>');
-  const district = $('<p class="dire-district">'+dire.district+'</p>');
+  const district = $('<p class="dire-district">'+dire.district+'</p><hr>');
   const flag = $('<a href="#"><i class="material-icons">famap</i></a>');
 
   item.append(name);
